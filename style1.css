@@ -1,0 +1,29 @@
+h1{
+    
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: cursive;
+}
+div span{
+    background-color: rgb(212, 227, 71);
+
+}
+div h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+div li{
+    font-size: 25px;
+    font-family: monospace;
+
+}
+div>p{
+    font-size: 25px;
+}
+body{
+    background-color: #B4B4B3;
+}
+hr{
+    border-color: blue;
+}

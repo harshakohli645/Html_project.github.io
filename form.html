@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="te">
+<head>
+    <title>Apply</title>
+    <link rel="icon"  href="email.png">
+<body style="background-image: url('https://img.freepik.com/free-vector/flat-geometric-background_23-2148957201.jpg?w=996&t=st=1697301983~exp=1697302583~hmac=6a9c582dbc9db692e2808df96d22996546ff2fe19e30deacd8b52c7161be7b5b');">
+    <h1 style="color: rgb(87, 129, 185);background-color: burlywood;text-align: center;font-family: cursive;"> Application  </h1>
+    
+  <form action="http://127.0.0.1:5500/web.html" >
+       <center><fieldset style="height: 7cm;width:4cm ;background-color: rgb(173, 141, 173);">
+            <legend style="color: rgb(94, 57, 213);">Personal Details:</legend>
+            <table>
+                <tr><td><label for="FN">FirstName</label></td><td><input type="text" id="FN" placeholder="ex:harsha" size="15"  pattern="[a-z]{3,9}"></td></tr>
+                <tr><td><label for="LN">LastName</label></td><td><input type="text"  id="LN" placeholder="ex:Bhojanapu" size="15" maxlength="15"></td></tr>
+                <tr><td><label for="num">MobileNumber</label></td><td><input type="text" id="num" placeholder="ex'9951674090" size="15" pattern="[6-9]{1}[0-9]{9 }" ></td></tr>
+                <tr><td><label for="mail">Email</label></td><td><input type="email" id="mail" placeholder="ex:harsha@gmail.com" size="15"><br></td></tr>
+                <tr><td><label for="pass">Password</label></td><td> <input type="password" name="pass" size="15" minlength="7"></td></tr>
+                <tr><td><Label> Date Of Birth</Label></td><td><input type="date" name="dob"  ></td></tr>
+                <tr><td><label >Gender</label></td><td><input type="radio" name="Gender" value="M"> Male <input type="radio" name="Gender" value="F">Female <input type="radio"  name="Gender"
+                    value="C">Custom </td></tr>
+                <tr><td><label > Select Country</label></td> <td><select >
+                <option value="IN">India</option>
+                <option value="US">America</option>
+                <option value="Pk">Pakistan</option>
+                </select></td></tr>
+                <tr><td><label >Upload Photo</label></td><td><input type="file"></td></tr>
+                <tr><td><input type="reset" name="submit"></td></tr>
+            </table>
+            
+        </fieldset>
+    </center> 
+    <fieldset style="height: 4cm;width: 3cm;background-color: rgb(172, 220, 220);">
+        <legend style="color: cadetblue;background-color: rgb(91, 64, 81);">Course:</legend>
+        <label>Select Course</label>
+        <select name="Cousrse" >
+            <option value="java">Core Java</option> 
+            <option value="Web">Web techonolgys</option>
+            <option value="Py">Python</option>
+            <option value="dsa">data Structure </option>
+        </select><br>
+        <label >Delivery Mode</label>
+        <input type="checkbox" name="ON">Online <input type="checkbox" name="Of">Ofline <br>
+        <label >Any Quries</label> <br>
+        <textarea name="any"  cols="30" rows="3"></textarea>
+
+
+    </fieldset>
+    <center><input type="submit"></center>
+        
+        
+         
+
+
+    
+</body>
+</html>
